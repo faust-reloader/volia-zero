@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { KokanComponent } from './kokan/kokan.component';
 import { PageNotFoundComponent } from './404/404.component';
 import { ContactComponent } from './contact/contact.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule
   ],
   providers: [Title],
   bootstrap: [AppComponent]

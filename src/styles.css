@@ -1,5 +1,9 @@
 @import "w3.css";
 
+header {min-width: 100%}
+
+.w3-top {font-family: "Segoe UI",Arial,sans-serif;}
+
 .myvideo {
     position:relative;
     padding-bottom:52%;

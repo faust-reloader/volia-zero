@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: 'contact.component.html'
+  template: '<app-header message="Контактная информация"></app-header>'
 })
 export class ContactComponent {
 }
