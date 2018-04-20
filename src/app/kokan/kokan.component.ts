@@ -32,4 +32,5 @@ export class KokanComponent {
     }
     x[this.slideIndex - 1].className = 'w3-row-padding kokanSlide w3-show';
   }
+
 }
